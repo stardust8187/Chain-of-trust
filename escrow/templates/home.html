@@ -1,0 +1,66 @@
+</!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <style type="text/css">
+        .circle-text {
+            display: table-cell;
+            height: 200px; /*change this and the width for the size of your initial circle*/
+            width: 200px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 50%;
+            
+          /*make it pretty*/
+            background: #000;
+            color: #fff;
+            font: 40px "josefin sans", arial; /*change this for font-size and font-family*/
+            
+        }        
+
+        
+    </style>
+
+    <body bgcolor="#236CA8">
+        <center>
+            <br>
+            <br>
+            <br>
+        	<h1 style="font-size: 40px"> Money in the account of the participants </h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <span style="padding: 100px">
+                <div class="circle-text">
+                   $ {{client}}
+                </div>
+            </span>
+            <span style="padding: 100px">
+                <div class="circle-text">
+                   $ {{escrow}}
+                </div>
+            </span>
+            <span style="padding: 100px">
+                <div class="circle-text">
+                   $ {{developer}}
+                </div>
+            </span>  
+            <br>
+            <br>
+            <span  style="padding-left: 210px; padding-right: 160px; font-size: 35px;">
+                Client
+            </span>
+            <span  style="padding-left: 150px; padding-right: 150px; font-size: 35px;">
+                Escrow
+            </span>
+            <span  style="padding-left: 140px; padding-right: 160px; font-size: 35px;">
+                Developer
+            </span>
+        </center>
+                 
+    </body>
+</html>

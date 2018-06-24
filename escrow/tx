@@ -1,0 +1,11 @@
+{
+  "$class": "org.example.basic.Submitcode",
+  "modulenum": "string",
+  "time": 2,
+  "date": 25,
+  "month": 5,
+  "year": 1998,
+  "result": 0,
+  "transactionId": "",
+  "timestamp": "2018-06-24T03:13:22.647Z"
+}

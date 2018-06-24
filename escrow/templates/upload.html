@@ -1,0 +1,33 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+<style>
+
+	body{text-align:center;
+	background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF
+    	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Playfair Display', serif;
+ font-weight: 700;
+ font-style: italic;
+ color:white;
+  }
+	form{display:block;border:10px solid white;padding:200px;font-family: 'Playfair Display', serif;
+ font-weight: 700;
+ font-style: italic;
+}
+	
+
+</style>
+</head>
+   <body>
+   	<h1>Upload your code files</h1>
+      <form action = "http://localhost:5000/up" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type="text" name="mod"/>
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>
